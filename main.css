@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap');
+body{
+    /*background-image: linear-gradient(rgb(94, 139, 221), #8465ff, rgb(0, 89, 255));*/
+    background-image: linear-gradient(rgb(0, 89, 255),	rgb(250, 232, 158) ,#8465ff, rgb(250, 232, 158) , rgb(0, 89, 255) );
+    background-color: black; /* For browsers that do not support gradients */
+    z-index: -1;
+}
+
+.button {
+    -items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 25px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  position:absolute;
+  margin-top:420px;
+  margin-left: 230px;  
+}
+
+.button:active,
+.button:hover {
+  outline: 0;
+}
+
+.button span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  /*width: 100%;
+  height: 100%;*/
+  transition: 300ms;
+}
+
+.button:hover span {
+  background: none;
+  color:black;
+  
+  text-shadow: 1px 1px 2px rgb(250, 246, 246), 0 0 3em rgb(5, 6, 45), 0 0 0.2em blue;
+  border: 3px solid rgb(5, 6, 45);
+}
+
+
+/*
+@media (min-width: 768px) {
+  .button{
+    font-size: 24px;
+    min-width: 196px;
+  }
+}*/
+
+
+
+h1{
+    margin-top: 230px;
+    margin-left: 200px;
+    text-align: center;
+    font-family:"Calibri";
+    font-size:55px;
+    position:absolute;
+   color: white;
+    text-shadow: 0 1px 0 rgb(155, 170, 236),
+               0 2px 0 #669feb,
+               0 4px 0 #450c8f,
+               0 3px 0 rgb(45, 22, 177),
+               0 5px 0 rgb(4, 2, 122),
+               0 3px 1px rgba(0,0,0,.1),
+               0 0 4px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+h3{
+    margin-top: 375px;
+    margin-left: 210px;
+    text-align: center;
+    font-family:"Calibri";
+    font-size:20px;
+    position:absolute;
+    color: black;
+    text-shadow:2px 2px 8px #ffffff;
+
+}
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+}
+        

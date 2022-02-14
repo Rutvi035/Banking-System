@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+
+  }
+  
+  tr:nth-child(even){background-color: #00DDEB;
+  border-color:black;}
+
+  tr:nth-child(odd){ background-color:#3719c4;
+  color: white;
+  border-color:black;}
+
+  body{
+    background-image: linear-gradient(144deg, #af40ff, #5B42F3 50%,#00DDEB);
+  }
